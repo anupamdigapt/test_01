@@ -1,0 +1,26 @@
+{
+  "name": "sequlize-relation",
+  "version": "1.0.0",
+  "description": "sequlize relation test",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Anupam Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-flash": "^0.0.2",
+    "express-group-routes": "^1.1.0",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.0.1",
+    "mysql2": "^3.9.7",
+    "node-input-validator": "^4.5.1",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.3",
+    "underscore": "^1.13.6"
+  }
+}
