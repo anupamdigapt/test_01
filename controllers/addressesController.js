@@ -8,7 +8,7 @@ const { response } = require('../config/response');
 const { Op } = require('sequelize');
 const { User } = require('../models/User');
 const { Address } = require('../models/Address');
-const { Friend } = require('../models/UserFriend');
+const { Friend } = require('../models/Friend');
 
 const store = async (req, res) => {
     try {

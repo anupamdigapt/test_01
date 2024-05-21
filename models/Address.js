@@ -12,10 +12,10 @@ const Address = sequelize.define('addresses', {
     userId: {
         type: DataTypes.BIGINT,
         allowNull: false,
-        references: {
-            model: User,
-            key: 'id'
-        }
+        // references: {
+        //     model: User,
+        //     key: 'id'
+        // }
     },
     street: {
         type: DataTypes.STRING,

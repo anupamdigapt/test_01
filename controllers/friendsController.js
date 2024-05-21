@@ -8,7 +8,7 @@ const { response } = require('../config/response');
 const { Op } = require('sequelize');
 const { User } = require('../models/User');
 const { Address } = require('../models/Address');
-const { UserFriend } = require('../models/UserFriend');
+const { Friend } = require('../models/Friend');
 
 const store = async (req, res) => {
     try {
@@ -62,7 +62,7 @@ const store = async (req, res) => {
             return response(res, { message: 'Friend not found' }, 'error', 404);
         }
 
-        const userFriend = new UserFriend();
+        const userFriend = new Friend();
         userFriend.userId = userId
         userFriend.friendId = friendId
         userFriend.name = name
